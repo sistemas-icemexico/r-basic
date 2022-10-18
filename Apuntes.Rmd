@@ -1,0 +1,22 @@
+---
+title: "Apuntes R"
+author: "Francisco Javier"
+date: '2022-04-25'
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+---
+
+## Instalar y cargar paquetes
+
+*Instala o actualiza un paquete de R*
+
+install.packages("nombre_del_paquete", dep = TRUE)
+
+
+*Carga un paquete ya instalado*
+
+library(nombre_del_paquete)
+ 
+installed.packages()
